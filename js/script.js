@@ -10,7 +10,11 @@ $(document).ready(function(){
     $("#myskills").slideToggle("slow");
   });
   $("#contact").click(function(){
-    $("#mycontact").fadeToggle("slow");
+    $("#mycontact").fadeIn("slow");
+  });
+  // page down to see icons
+  $("#contact").click(function(){
+    $('html, body').animate({scrollTop: '+=100px'}, 800);
   });
 
   // scroll to top
