@@ -1,0 +1,17 @@
+$(document).ready(function(){
+  $("#aboutme").click(function(){
+    $("#text").slideToggle("slow");
+  });
+  $("#resume").click(function(){
+    $("#myresume").slideToggle("slow");
+  });
+  $("#project").click(function(){
+    $("#myproject").slideToggle("slow");
+  });
+  $("#contact").click(function(){
+    $("#mycontact").slideToggle("slow");
+  });
+  $("#skills").click(function(){
+    $("#myskills").slideToggle("slow");
+  });
+});

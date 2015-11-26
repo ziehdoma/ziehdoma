@@ -1,53 +1,44 @@
+.container { 
+  margin-top: 180px;
+}
 
-
-
-
-.container{ 
-
-margin-top: 180px;}
-
-//  #mycontact{
-  
-//   background-color: #dd455a;
-// }
 p {
   font-size: 20px;
-
   color: grey;
 }
+
 #aboutme, #resume, #project, #contact,#skills{
   font-size: 40px;
-  color:grey;
+  color: grey;
   font-family: serif;
-  
- 
 }
-#text, #aboutme, #myresume, #resume, #myproject, #project, #contact, #mycontact, #skills, #myskills{
-    padding: 5px;
-    text-align: center;
-    background-color: rbga(255,114,123,.5);
-    
-    }
+
+#text, #aboutme, #myresume, #resume, #myproject, #project, #contact,#mycontact, #skills, #myskills{
+  padding: 5px;
+  text-align: center;
+  background-color: rbga(255,114,123,.5);  
+}
 
 #text, #myresume, #myproject, #mycontact, #myskills {
-    padding: 50px;
-    display: none;
+  padding: 50px;
+  display: none;
 }
-
 
 body.modal-open #wrap{
-    -webkit-filter: blur(7px);
-    -moz-filter: blur(15px);
-    -o-filter: blur(15px);
-    -ms-filter: blur(15px);
-    filter: blur(15px);
+  -webkit-filter: blur(7px);
+  -moz-filter: blur(15px);
+  -o-filter: blur(15px);
+  -ms-filter: blur(15px);
+  filter: blur(15px);
 }
   
-.modal-backdrop {background: #f7f7f7;}
+.modal-backdrop {
+  background: #f7f7f7;
+}
 
 .close {
-    font-size: 50px;
-    display:block;
+  font-size: 50px;
+  display:block;
 }
 
 .progress-bar {
