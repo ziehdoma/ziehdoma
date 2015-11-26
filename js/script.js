@@ -1,18 +1,18 @@
 $(document).ready(function(){
-  $('body.hidden').fadeIn(1500).removeClass('hidden');
-  $("#resume").click(function(){
-    $("#myresume").slideToggle("slow");
-  });
+  // fade in page
+  $('body.hidden').fadeIn(1200).removeClass('hidden');
+
+  // Original toggle
   $("#project").click(function(){
     $("#myproject").slideToggle("slow");
-  });
-  $("#contact").click(function(){
-    $("#mycontact").slideToggle("slow");
   });
   $("#skills").click(function(){
     $("#myskills").slideToggle("slow");
   });
-  
+  $("#contact").click(function(){
+    $("#mycontact").fadeToggle("slow");
+  });
+
   // scroll to top
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
@@ -28,3 +28,5 @@ $(document).ready(function(){
   });
   
 });
+
+
