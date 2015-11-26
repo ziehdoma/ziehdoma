@@ -12,7 +12,8 @@ $(document).ready(function(){
   $("#skills").click(function(){
     $("#myskills").slideToggle("slow");
   });
-
+  
+  // scroll to top
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
 
