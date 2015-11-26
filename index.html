@@ -6,13 +6,17 @@
 	  <title>Dhamzee Sherpa => Web Developer</title>
 	  <!-- google fonts -->
 		<link href='https://fonts.googleapis.com/css?family=Playfair+Display&subset=latin,cyrillic,latin-ext' rel='stylesheet' type='text/css'>
-	  <link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,400italic' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic' rel='stylesheet' type='text/css'>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-		<!-- Native stylesheet -->
+
+		<!-- Normalize.css -->
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<!-- Project stylesheet -->
 		<link rel="stylesheet" type="text/css" href="main.css">
+
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -37,10 +41,14 @@
 		
 			<div id="project">Projects</div>
 				<div id="myproject">
-					<a href="https://hyclub.herokuapp.com/" target="_blank"><img src="img/hyc.png" width="600" height="400"></a>
-					<br>
-					<br>
-					<a href="https://findyourtruck.herokuapp.com/" target="_blank"><img src="img/foodtruck.png" width="600" height="400"></a>
+			    <div class="row">	
+						<div class="col-xs-12 col-sm-offset-3 col-sm-6">
+							<a href="https://hyclub.herokuapp.com/" target="_blank"><img class="img-responsive" src="img/hyc.png"></a>
+							<br>
+							<br>
+							<a href="https://findyourtruck.herokuapp.com/" target="_blank"><img class="img-responsive" src="img/foodtruck.png"></a>
+						</div><!-- /.col -->
+					</div><!-- /.row -->
 				</div>
 			</div><!-- /#project -->
 				
@@ -50,10 +58,10 @@
 
 			<div id="myskills">	
 		    <div class="row">	
-					<div class="col-sm-offset-4 col-sm-4">
+					<div class="col-xs-12 col-sm-offset-3 col-sm-6">
 						<div id="education">
-							<h4>New York Code + Design Academy Web Development Intensive graduate, July 2014.
-							</h4>
+							<p>New York Code + Design Academy Web Development Intensive graduate, July 2014.
+							</p>
 							<br>	
 						</div>
 						<div class="progress">
@@ -105,29 +113,28 @@
 	 	
 	 		<hr>
 
-			<div id="resume">Resume</div>
-				<div id="myresume">
-					<object width="600" height="800" data="resume1.pdf"></object>
-				</div>
-			</div><!-- /#resume -->
+			<!-- Resume -->
+			<div id="resume"><a href="resume1.pdf" target="_blank">Resume</a></div>
 
 			<hr>
 
 			<div id="contact">Contact</div>
-			<div id="mycontact"> 
-				<ul class="contact-links">
-					<li><a href="https://www.facebook.com/zieh.doma"><img src="img/fb.png"></a>
-					</li>
-					<li><a href="https://instagram.com/ziehdoma/"><img src="img/insta.png"></a>
-					</li>
-					<li><a href="https://www.linkedin.com/pub/dhamzee-sherpa/80/8b0/29b"><img src="img/link.png"></a>
-					</li>
-					<li><a href="https://mobile.twitter.com/account"><img src="img/tw.png"></a>
-					</li>
-				</ul>
-				</br>
-				<img id="email" src="img/email.png">: dhamtsik@gmail.com
-			</div><!-- /#mycontact -->		
+				<div id="mycontact"> 
+					<ul class="contact-links">
+						<li><a href="https://www.facebook.com/zieh.doma"><img src="img/fb.png"></a>
+						</li>
+						<li><a href="https://instagram.com/ziehdoma/"><img src="img/insta.png"></a>
+						</li>
+						<li><a href="https://www.linkedin.com/pub/dhamzee-sherpa/80/8b0/29b"><img src="img/link.png"></a>
+						</li>
+						<li><a href="https://mobile.twitter.com/account"><img src="img/tw.png"></a>
+						</li>
+						<li><a href="mailto:dhamtsik@gmail.com?Subject=Hi%20there,%20Dhamzee!" target="_top"><img id="email" src="img/email.png"></a>
+						</li>
+					</ul>
+					<br>
+					<a href="mailto:dhamtsik@gmail.com?Subject=Hi%20there,%20Dhamzee!" target="_top"><h3 class="email">dhamtsik@gmail.com</h3></a>
+				</div><!-- /#mycontact -->		
 		 	</div><!-- /#contact -->
 
 		</div><!-- /.container -->
