@@ -1,7 +1,7 @@
 body {
   padding-bottom: 25px;
 }
-  /* Hide body on page load */
+/* Hide body on page load */
 .hidden {
   display: none;
 }
@@ -32,7 +32,7 @@ ul {
 
 
 
-/* ===== logo ===== */
+/* ===== Logo ===== */
 #logo h1 {
   font-family: "Playfair display", serif;
   font-weight: 400;
@@ -62,20 +62,6 @@ ul {
     -ms-transition: all 300ms ease-in;
     -o-transition: all 300ms ease-in;
     transition: all 300ms ease-in;
-}
-
-@media only screen and (max-width: 865px) {
-  #logo h1 {
-    position: absolute;
-    top: 0;
-    left: 25px;
-  }
-  #logo h2 {
-    position: absolute;
-    top: 31px;
-    left: 19px;
-    font-size: 22px;
-  }
 }
 
 
@@ -182,7 +168,7 @@ ul {
 }
 
 .progress-meter > .meter-right {
-  // float: right;
+  float: right;
   border-right-width: 1px;
 }
 
@@ -218,11 +204,6 @@ ul.contact-links {
   display: inline-block;
 }
 
-/*.contact-links a {
-  width: 50px;
-  height: 50px;
-}*/
-
 .contact-links img {
   height: 30px;
   width: 30px;
@@ -244,6 +225,7 @@ ul.contact-links {
   font-size: 1.35em;
   font-style: italic;
   text-transform: none;
+  font-weight: 400;
 }
 
 .email:hover {
@@ -259,7 +241,7 @@ ul.contact-links {
 
 
 
-/* ===== line break styling ===== */
+/* ===== Line break styling ===== */
 hr { 
   width: 100px;
   border: 0; 
@@ -273,7 +255,7 @@ hr {
   
 
 
-/* ===== resume ===== */
+/* ===== Resume ===== */
 #resume a, #mycontact a {
   font-family: "Playfair display", serif;
   text-decoration: none;
@@ -288,3 +270,35 @@ hr {
 }
 
 
+
+
+/* ===== Media Queries ===== */
+@media only screen and (max-width: 865px) {
+  #logo h1 {
+    position: absolute;
+    top: 0;
+    left: 25px;
+  }
+  #logo h2 {
+    position: absolute;
+    top: 31px;
+    left: 19px;
+    font-size: 22px;
+  }
+  #welcome p, #education p, #myskills span {
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+  #welcome p {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #welcome p {
+    font-size: .8em;
+    padding-left: 5%;
+    padding-right: 5%;
+  }  
+}
