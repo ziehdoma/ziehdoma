@@ -71,8 +71,9 @@ ul {
   }
   #logo h2 {
     position: absolute;
-    top: 34px;
-    left: 17px;
+    top: 31px;
+    left: 19px;
+    font-size: 22px;
   }
 }
 
