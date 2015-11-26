@@ -1,22 +1,72 @@
-.container { 
-  margin-top: 180px;
+/* Hide body on page load */
+.hidden {
+  display: none;
+}
+
+h2, h3, h4, h5, p, a {
+  color: grey;
+  font-family: 'Lato', sans-serif;
 }
 
 p {
-  font-size: 20px;
-  color: grey;
+  font-weight: 400;
+  letter-spacing: 2px;
 }
 
-#aboutme, #resume, #project, #contact,#skills{
-  font-size: 40px;
-  color: grey;
-  font-family: serif;
+#logo h1 {
+  font-family: "Playfair display", serif;
+  font-weight: 400;
+  font-size: 55px;
+  color: #C0C0C0;
+  decoration: underline;
+  transform: lowercase;
+  text-decoration: underline;
+  letter-spacing: -10px;
+  position: absolute;
+  top: 0;
+  left: 25px;
 }
 
-#text, #aboutme, #myresume, #resume, #myproject, #project, #contact,#mycontact, #skills, #myskills{
+#logo h2 {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+  font-size: 30px;
+}
+
+#hero {
+  background: url('img/me.jpg') no-repeat;
+  background-size: contain;
+  overflow: hidden;
+  border: 4px solid #E3D7D7;
+  border-radius: 50%;
+  box-shadow: 2px 0px 10px rgba(0,0,0, .1);
+  height: 250px;
+  width: 250px;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#welcome {
+  max-width: 900px;
+  margin-top: 75px;
+  margin-bottom: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#welcome p {
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#text, #myresume, #resume, #myproject, #project, #contact, #mycontact, #skills, #myskills{
   padding: 5px;
   text-align: center;
-  background-color: rbga(255,114,123,.5);  
+  color: grey;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 #text, #myresume, #myproject, #mycontact, #myskills {
@@ -41,6 +91,10 @@ body.modal-open #wrap{
   display:block;
 }
 
+
+
+
+/* ===== Progress Bar ===== */
 .progress-bar {
   text-align: left;
   white-space: nowrap;
@@ -48,6 +102,7 @@ body.modal-open #wrap{
   overflow: hidden;
   text-overflow: ellipsis;
   cursor: pointer;
+  background-image: linear-gradient(to bottom,#F92E62 0,#DCDDDD 100%);
 }
 
 .progress-bar > .progress-type {
@@ -94,6 +149,20 @@ body.modal-open #wrap{
 
 .progress-meter > .meter.meter-right > .meter-text {
   text-align: right;
+}
+
+
+
+
+/* ===== line break styling ===== */
+hr { 
+  width: 250px;
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #DFC0C0, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #DFC0C0, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #DFC0C0, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #DFC0C0, #f0f0f0); 
 }
 
   

@@ -1,7 +1,5 @@
 $(document).ready(function(){
-  $("#aboutme").click(function(){
-    $("#text").slideToggle("slow");
-  });
+  $('body.hidden').fadeIn(1500).removeClass('hidden');
   $("#resume").click(function(){
     $("#myresume").slideToggle("slow");
   });
