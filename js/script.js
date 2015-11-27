@@ -2,16 +2,12 @@ $(document).ready(function(){
   // fade in page
   $('body.hidden').fadeIn(1200).removeClass('hidden');
 
-  // Original toggle
-  $("#project").click(function(){
-    $("#myproject").slideToggle("slow");
+  // Menu logic
+  $(".toggle-menu").click(function(){
+    $(".toggle-menu").not(this).next(".toggle-item").slideUp("slow");
+    $(this).next(".toggle-item").slideToggle("slow");
   });
-  $("#skills").click(function(){
-    $("#myskills").slideToggle("slow");
-  });
-  $("#contact").click(function(){
-    $("#mycontact").fadeIn("slow");
-  });
+
   // page down to see icons
   $("#contact").click(function(){
     $('html, body').animate({scrollTop: '+=100px'}, 800);
