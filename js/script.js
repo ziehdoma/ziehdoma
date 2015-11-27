@@ -10,10 +10,11 @@ $(document).ready(function(){
 
   // page down to see icons
   $("#contact").click(function(){
-    $('html, body').animate({scrollTop: '+=100px'}, 800);
+    $('html, body').animate({scrollTop: '+=200px'}, 800);
+    // $("#mycontact").fadeIn("slow"); 
   });
-
-  // scroll to top
+  
+  // scroll to top via logo
   $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
 
