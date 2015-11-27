@@ -11,22 +11,21 @@ $(document).ready(function(){
   // page down to see icons
   $("#contact").click(function(){
     $('html, body').animate({scrollTop: '+=200px'}, 800);
-    // $("#mycontact").fadeIn("slow"); 
   });
   
   // scroll to top via logo
-  $('a[href^="#"]').on('click',function (e) {
-      e.preventDefault();
+  // $('a[href^="#"]').on('click',function (e) {
+  //     e.preventDefault();
 
-      var target = this.hash;
-      var $target = $(target);
+  //     var target = this.hash;
+  //     var $target = $(target);
 
-      $('html, body').stop().animate({
-          'scrollTop': $target.offset().top
-      }, 900, 'swing', function () {
-          window.location.hash = target;
-      });
-  });
+  //     $('html, body').stop().animate({
+  //         'scrollTop': $target.offset().top
+  //     }, 500, 'swing', function () {
+  //         window.location.hash = target;
+  //     });
+  // });
   
 });
 
