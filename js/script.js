@@ -8,7 +8,7 @@ $(document).ready(function(){
     $(this).next(".toggle-item").slideToggle("slow");
   });
 
-  // Page down to see icons
+  // Page down to see contact icons
   $("#contact").click(function(){
     $('html, body').animate({scrollTop: '+=200px'}, 800);
   });
