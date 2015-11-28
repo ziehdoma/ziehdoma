@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  // fade in page
+  // Fade in page
   $('body.hidden').fadeIn(1200).removeClass('hidden');
 
   // Menu logic
@@ -8,24 +8,10 @@ $(document).ready(function(){
     $(this).next(".toggle-item").slideToggle("slow");
   });
 
-  // page down to see icons
+  // Page down to see contact icons
   $("#contact").click(function(){
     $('html, body').animate({scrollTop: '+=200px'}, 800);
   });
-  
-  // scroll to top via logo
-  // $('a[href^="#"]').on('click',function (e) {
-  //     e.preventDefault();
-
-  //     var target = this.hash;
-  //     var $target = $(target);
-
-  //     $('html, body').stop().animate({
-  //         'scrollTop': $target.offset().top
-  //     }, 500, 'swing', function () {
-  //         window.location.hash = target;
-  //     });
-  // });
   
 });
 
