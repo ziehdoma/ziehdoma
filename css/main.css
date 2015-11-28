@@ -168,7 +168,7 @@ ul {
 }
 
 .progress-meter > .meter-right {
-  // float: right;
+  float: right;
   border-right-width: 1px;
 }
 
@@ -230,6 +230,7 @@ ul.contact-links {
   font-size: 1.35em;
   font-style: italic;
   text-transform: none;
+  font-weight: 400;
 }
 
 .email:hover {
@@ -276,7 +277,7 @@ hr {
 
 
 
-
+/* ===== Media Queries ===== */
 @media only screen and (max-width: 865px) {
   #logo h1 {
     position: absolute;
@@ -291,8 +292,18 @@ hr {
   }
   #welcome p, #education p, #myskills span {
     font-weight: 400;
+    letter-spacing: 1.5px;
   }
   #welcome p {
-    font-size: .8em;
+    padding-left: 10%;
+    padding-right: 10%;
   }
+}
+
+@media only screen and (max-width: 375px) {
+  #welcome p {
+    font-size: .8em;
+    padding-left: 5%;
+    padding-right: 5%;
+  }  
 }
