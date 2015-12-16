@@ -93,13 +93,13 @@ ul {
 #welcome p {
   font-size: 1em;
   text-align: center;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 #text, #myresume, #resume, #myproject, #project, #contact, #mycontact, #skills, #myskills{
   padding: 0;
   text-align: center;
-  color: #828181;
+  /*color: #828181;*/
   text-transform: uppercase;
   font-family: "Playfair display", serif;
   font-size: .75em;
