@@ -5,7 +5,9 @@ body {
 .hidden {
   display: none;
 }
-
+.highlight:hover{
+  box-shadow: 5px 0px 40px rgba(0,0,0, .1);
+}
 h2, h3, h4, h5, p, a {
   color: grey;
   font-family: 'Lato', sans-serif;
