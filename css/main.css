@@ -1,6 +1,17 @@
 body {
   padding-bottom: 25px;
 }
+ #tm{
+
+  font-size: 10px;
+  float: right;
+}
+
+ #greeting{
+
+  font-size: 10px;
+  
+}
 /* Hide body on page load */
 .hidden {
   display: none;
