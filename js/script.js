@@ -1,3 +1,6 @@
+
+
+
 $(document).ready(function(){
   // Fade in page
   $('body.hidden').fadeIn(1200).removeClass('hidden');
@@ -14,5 +17,7 @@ $(document).ready(function(){
   });
   
 });
+
+
 
 
